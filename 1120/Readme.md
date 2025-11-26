@@ -2,9 +2,6 @@
 
 # Chapter 8 – Advanced Procedures 요약 (스택 프레임 & 고급 프로시저)
 
-> 기준 교재: *Assembly Language for x86 Processors, Chapter 8: Advanced Procedures* 내용을 요약/보완한 정리본입니다.  
-> 질문에서 적어준 1–22번 메모를 토대로, 빠진 부분과 교재 내용을 채워 넣었습니다.
-
 ---
 
 ## 0. 메모리 구조 & 기본 용어 정리
