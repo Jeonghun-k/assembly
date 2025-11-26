@@ -455,26 +455,3 @@ EXTERN AddTwo@8 : PROC
 > EXTERNDEF는 “어디선가 이 이름이 정의돼 있을 거야”라고 알려주면서,  
 > 동시에 필요하면 이 모듈에서 정의된 심볼을 외부로 공개할 수도 있게 도와주는 도구.
 
-네 메모 22번:
-
-> “지금 나한테는 파일이 없지만 다른 곳에 파일이 있다는 걸 명시… 링킹할 때 사용”
-
-- 이 감각은 맞고, 거기에 **export/import를 동시에 관리하는 도구**라는 점이 추가된다고 보면 됨.
-
----
-
-## 12. 정리 체크리스트
-
-- [x] 코드/데이터/스택/힙 역할 구분  
-- [x] Parameter vs Argument 구분  
-- [x] Call by value / reference / 배열 전달 방식  
-- [x] EBP/ESP 기반 스택 프레임 구조 이해  
-- [x] 지역변수 vs 파라미터: EBP 기준 + / -  
-- [x] LEA + 스택 정렬(sub esp,32)의 의미 이해  
-- [x] ENTER / LEAVE / LOCAL 동작 원리  
-- [x] 재귀 호출 시 스택 프레임 증가/감소 흐름  
-- [x] INVOKE / ADDR / PROC / PROTO 사용법  
-- [x] 파라미터 분류 (입력 / 출력 / 입력+출력)  
-- [x] EXTERN / EXTERNDEF / PUBLIC / PRIVATE 역할
-
-이 파일만 계속 보면서 복습해도 ch08 핵심은 거의 다 커버될 거야.
